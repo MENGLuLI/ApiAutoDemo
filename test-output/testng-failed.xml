@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="ApiAutoDemo(failed)">
+    <classes>
+      <class name="com.qa.tests.GetTest01">
+        <methods>
+          <include name="Test04"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.tests.GetTest01 -->
+    </classes>
+  </test> <!-- ApiAutoDemo(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
